@@ -1,4 +1,3 @@
-// Merge function from earlier
 function merge(arr1, arr2) {
   let result = [];
   let i = 0;
