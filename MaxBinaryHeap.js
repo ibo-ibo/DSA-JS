@@ -52,9 +52,6 @@ class MaxBinaryHeap {
   }
 
   swap(idx1, idx2) {
-    [this.values[idx1], this.values[idx2]] = [
-      this.values[idx2],
-      this.values[idx1],
-    ];
+    [this.values[idx1], this.values[idx2]] = [this.values[idx2], this.values[idx1]];
   }
 }
